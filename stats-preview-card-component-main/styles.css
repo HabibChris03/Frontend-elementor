@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f3f4f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .insight-section {
+    background-color: #0a0a23;
+    padding: 4rem 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 960px;
+    background-color: #1a1a40;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .text-content {
+    color: #ffffff;
+    padding: 2rem;
+    flex: 1 1 50%;
+  }
+  
+  .text-content h2 {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+  
+  .text-content .highlight {
+    color: #a855f7;
+  }
+  
+  .description {
+    font-size: 0.95rem;
+    color: #cbd5e1;
+    margin-bottom: 2rem;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .stat h3 {
+    font-size: 1.3rem;
+    color: #ffffff;
+  }
+  
+  .stat p {
+    font-size: 0.8rem;
+    color: #94a3b8;
+  }
+  
+  .image-content {
+    flex: 1 1 50%;
+    position: relative;
+  }
+  
+  .image-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: hue-rotate(265deg) brightness(0.85);
+  }
+  
